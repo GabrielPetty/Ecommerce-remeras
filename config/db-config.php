@@ -141,41 +141,6 @@ if ($conn->query($sql) !== TRUE) {
         $result = $conn->query($sql);
     }
 
-
-    //Crear la roles contacto si no existe - ES PARA CONTROLAR LOS ACCESOS A LAS AREAS "en caso de haber".
-
-    /*
-    $sql = "CREATE TABLE IF NOT EXISTS roles (
-        id int AUTO_INCREMENT PRIMARY KEY,
-        acceso VARCHAR(30),
-        id_usuario varchar(30)
-        )";
-    if ($conn->query($sql) !== TRUE) {
-        die("Error al crear la tabla 'contacto' : " . $conn->error);
-    }
-
-    
-
-    // Necesitamos el id del admin para ver si existe en roles - Lokitah !
-
-    
-    $sql = "SELECT id FROM usuarios WHERE email = '$admin'";
-    $result = $conn->query($sql);
-    $row = $result->fetch_assoc();
-    $id = $row["id"];
-   
-    $sql = "SELECT acceso FROM roles WHERE id_usuario = '$id'";
-    $result = $conn->query($sql);
-    if ($result->num_rows < 1) {
-        $sql = "INSERT INTO roles (id_usuario,acceso)
-        VALUES ('$id', 'alta productos'), ('$id', 'contacto'), 
-        ('$id', 'gestion usuarios'), ('$id', 'reportes'),
-         ('$id', 'revisar contacto'), ('$id', 'stock')";
-         $result = $conn->query($sql);
-    }
-
-    */
-
     // Devolver la conexión
     
     return $conn;
