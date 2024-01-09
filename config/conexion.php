@@ -1,6 +1,6 @@
 <?php 
 
-  $hostname = 'localhost:3306'; //también se puede usar 127.0.0.1:3306
+  $hostname = 'localhost:3306';
   $username = 'root';
   $passname = '';
   $dbname = 't_shirt';
