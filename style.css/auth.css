@@ -1,0 +1,100 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  width: 100%;
+  height: auto;
+  background-color: rgb(183, 153, 210);
+}
+.header{
+  background-color: rgb(71, 124, 239);
+  width: 96%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.header .bienvenido{
+  color: white;
+  margin-top: 3%;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  border: 10px;
+  border-color: white;
+  border-style: double;
+  display: flex;
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.cerrar{
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 3%;
+  width: 20%;
+  height: auto;
+  display: flex;
+  font-size: 1.5rem;
+  font-style: oblique;
+  transition: all 0.5s ease-out;
+  color: red;
+  background-color: white;
+  border-radius: 5px;
+}
+.cerrar:hover{
+  color: white;
+  background-color: rgba(221, 8, 8, 0.919);
+  scale: 1.1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+/*
+.main .ingreso{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  li{
+    background-color: rgba(128, 128, 128, 0.418);
+    width: auto;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+  }
+  .ingresar{
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    display: flex;
+    font-size: 2rem;
+    font-style: oblique;
+    text-decoration: none;
+    transition: all 0.8s ease-out;
+  }
+}
+.ingresar{
+  color: blue;
+}
+.ingresar:hover{
+  color: white;
+  background-color: rgb(49, 84, 27);
+  scale: 1.1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+}
+*/
+

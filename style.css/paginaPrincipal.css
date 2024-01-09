@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tituloPrincipal{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 5rem;
+}
+
+.navegacion {
+  width: 100%;
+  margin: none;
+  background-color: #61677c82;
+  margin-top: 1%;
+}
+.menu {
+  margin-left: 5.5%;
+  display: inline-flex;
+}
+.navegacion .menu{
+  width: auto;
+}
+.menu li {
+  display: block;
+  padding: 15px 160px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+.menu li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.menu li:hover {
+  width: 20%;
+  background-color: rgb(98, 100, 229);
+  transition: all 1s linear;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+li a:hover{
+  color: bisque;
+}
+@media (max-width:1300px) {
+  .menu {
+    display: block;
+    margin-right: 2rem;
+    justify-content: left;
+    width: 100%;
+  }
+  .navegacion a:last-of-type {
+    margin: 0;
+  }
+}
+.subtitulo1{
+  margin-top: 3%;
+  text-align: center;
+  color: rgb(77, 61, 40) ;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+.section{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+#imagen{
+  margin-top: 5%;
+  margin-left: 13.5%;
+  width: 220px;
+  height: 250px;
+  border: groove;
+  border-color: blue;
+  transition-duration: .8s;
+}
+#imagen:hover{
+  scale: 1.1;
+  border-color: aqua;
+  box-shadow: 0 0 30px purple;
+}
+
+/*Estilo de remeras*/
+.estilo {
+  width: 100%;
+  margin: none;
+  background-color: #61677c82;
+  margin-top: 1%;
+}
+.t1{
+  margin-left: 0;
+  display: inline-flex;
+}
+.estilo .t1{
+  width: auto;
+}
+.t1 li{
+  display: block;
+  padding: 7px 154.5px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+
+
+/*Sector de footer*/
+#contacto{
+  background-color: cadetblue;
+  width: 100%;
+  height: auto;
+}
+#contacto, .item1{
+  text-align: center;
+}
+#contacto, h2, p{
+  margin-top: 2.5%;
+}
+
+/*Inicio de espacio para Historia*/
+.item2{
+  margin-top: 2%;
+  background-color: rgb(155, 153, 153);
+  width: 100%;
+  height: auto;
+}
+.titulo{
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(94, 65, 25);
+}
+h3{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+
+
+/*Estilos de botón volver*/
+#volver-arriba {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #55555587;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition-duration: 1s;
+}
+#volver-arriba:hover {
+  background-color: rgb(195, 211, 50);
+  color: rgb(0, 0, 0);
+  scale: 1.2;
+}
+
+.login{
+  background-color: rosybrown;
+  max-width: 160px;
+  height: auto;
+  border-style: outset;
+  border-color: gray;
+  display: flex;
+  a{
+    margin-left: 8%;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+}
+

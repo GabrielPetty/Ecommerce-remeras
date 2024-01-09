@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.inicio{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.inicio .div1 {
+  margin-top: 1%;
+  background-color: rgb(249, 234, 205);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.inicio .div1 p {
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.inicio .div2 {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  margin-top: 2%;
+  min-width: 400PX;
+}
+.div2 a {
+  font-size: 50px;
+  background-color: rgb(87, 122, 203);
+  color: white;
+  border-radius: 2%;
+  border-color: black;
+  border-style: double;
+  text-decoration: none;
+  max-width: 300px;
+}
+.enlace {
+  margin: 0 auto;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  transition: all 0.7s ease-out;
+}
+.enlace:hover{
+  font-style: italic;
+  border-style:groove;
+  border-color: rgb(40, 68, 138);
+  background-color: green;
+  color: aliceblue;
+  transition: all  0.7s ease-in-out; 
+}
+a:hover{
+  font-size: 3.5rem;
+}
+.div2 a:hover{
+  width: 45%;
+  border-radius: 50%;
+}
+
+
+
+/* ALINEACIÓN DE IMÁGENES */
+.main{
+  margin-top: 10%;
+  background-color: gray;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.container-fotos{
+  min-width: 200px;
+  flex: 350px;
+  height: 300px;
+}
+img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 8%;
+}
+
+
+
+
+
+.linea{
+  border-top: 1px solid black;
+  height: 2px;
+  width: 90%;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+
+
+
+/* INICIO DE FOOTER */
+
+#contacto{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  p{
+    color: rgb(6, 5, 6);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+}
+#p{
+  justify-content: center;
+  text-align: center;
+  margin: 1% auto;
+}
