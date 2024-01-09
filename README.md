@@ -1,1 +1,1 @@
-# Ecommerce-remeras
+# Ecommerce-remeras: página inicial con derivación a página principal. Hay una acceso con login de inicio de sessión predeterminado con verificación en la base de datos generada automaticamente junto a sus tablas.
